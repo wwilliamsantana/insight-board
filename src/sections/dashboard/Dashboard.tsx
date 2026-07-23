@@ -1,5 +1,6 @@
 import { ChartsSection } from "../charts/ChartsSection";
 import { RecentOrders } from "../tables/RecentOrders";
+import { ActivityTimeline } from "../timeline/ActivityTimeline";
 import { DashboardHeader } from "./DashboardHeader";
 import { StatsCards } from "./StatsCards";
 
@@ -15,7 +16,7 @@ export function Dashboard() {
         <div className="lg:col-span-2">
           <RecentOrders />
         </div>
-        <div className="h-105 rounded-3xl border border-slate-200 bg-white" />
+        <ActivityTimeline />
       </div>
     </div>
   );
