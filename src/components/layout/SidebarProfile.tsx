@@ -7,6 +7,7 @@ export function SidebarProfile() {
         <Image
           src="https://github.com/wwilliamsantana.png"
           alt="William Santana"
+          loading="eager"
           width={44}
           height={44}
           className="rounded-full"
