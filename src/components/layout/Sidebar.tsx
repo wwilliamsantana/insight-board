@@ -1,3 +1,6 @@
+"use client";
+
+import { usePathname } from "next/navigation";
 import { SidebarItem } from "./SidebarItem";
 import { SidebarLogo } from "./SidebarLogo";
 
@@ -18,61 +21,59 @@ const items = [
   {
     icon: LayoutDashboard,
     label: "Dashboard",
-    active: true,
     redirect: "/",
   },
   {
     icon: BarChart3,
     label: "Analytics",
-    active: false,
-    redirect: "analytics",
+    redirect: "/analytics",
   },
   {
     icon: Users,
     label: "Customers",
-    active: false,
-    redirect: "customers",
+    redirect: "/customers",
   },
   {
     icon: ShoppingBag,
     label: "Orders",
-    active: false,
-    redirect: "orders",
+    redirect: "/orders",
   },
   {
     icon: Package,
     label: "Products",
-    active: false,
-    redirect: "products",
+    redirect: "/products",
   },
   {
     icon: MessageSquare,
     label: "Messages",
-    active: false,
-    redirect: "messages",
+    redirect: "/messages",
   },
   {
     icon: CalendarDays,
     label: "Calendar",
-    active: false,
-    redirect: "calendar",
+    redirect: "/calendar",
   },
   {
     icon: Settings,
     label: "Settings",
-    active: false,
-    redirect: "settings",
+    redirect: "/settings",
   },
 ];
 
 export function Sidebar() {
+  const pathname = usePathname();
+
   return (
     <aside className="flex w-72 flex-col border-r border-slate-200 bg-white">
       <SidebarLogo />
 
       <nav className="flex-1 space-y-2 px-4">
         {items.map((item) => (
-          <SidebarItem key={item.label} {...item} />
+          <SidebarItem
+            key={item.label}
+            {...item}
+            active={pathname == item.redirect}
+          />
         ))}
       </nav>
 
