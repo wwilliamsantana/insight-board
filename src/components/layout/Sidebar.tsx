@@ -19,34 +19,49 @@ const items = [
     icon: LayoutDashboard,
     label: "Dashboard",
     active: true,
+    redirect: "/",
   },
   {
     icon: BarChart3,
     label: "Analytics",
+    active: false,
+    redirect: "analytics",
   },
   {
     icon: Users,
     label: "Customers",
+    active: false,
+    redirect: "customers",
   },
   {
     icon: ShoppingBag,
     label: "Orders",
+    active: false,
+    redirect: "orders",
   },
   {
     icon: Package,
     label: "Products",
+    active: false,
+    redirect: "products",
   },
   {
     icon: MessageSquare,
     label: "Messages",
+    active: false,
+    redirect: "messages",
   },
   {
     icon: CalendarDays,
     label: "Calendar",
+    active: false,
+    redirect: "calendar",
   },
   {
     icon: Settings,
     label: "Settings",
+    active: false,
+    redirect: "settings",
   },
 ];
 

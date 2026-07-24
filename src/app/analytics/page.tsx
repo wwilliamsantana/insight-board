@@ -1,10 +1,10 @@
 import { DashboardLayout } from "@/components/layout/DashboardLayout";
-import { Dashboard } from "@/sections/dashboard/Dashboard";
+import { Analytics } from "@/sections/analytics/Analytics";
 
-export default function Home() {
+export default function AnalyticsPage() {
   return (
     <DashboardLayout>
-      <Dashboard />
+      <Analytics />
     </DashboardLayout>
   );
 }

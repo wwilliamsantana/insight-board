@@ -1,4 +1,5 @@
 import { ChartsSection } from "../charts/ChartsSection";
+import { PerformanceOverview } from "../performance/PerformanceOverview";
 import { RecentOrders } from "../tables/RecentOrders";
 import { ActivityTimeline } from "../timeline/ActivityTimeline";
 import { DashboardHeader } from "./DashboardHeader";
@@ -15,8 +16,11 @@ export function Dashboard() {
       <div className="grid gap-6 lg:grid-cols-3">
         <div className="lg:col-span-2">
           <RecentOrders />
+          <PerformanceOverview />
         </div>
-        <ActivityTimeline />
+        <div className="space-y-6">
+          <ActivityTimeline />
+        </div>
       </div>
     </div>
   );
