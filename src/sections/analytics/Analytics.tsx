@@ -1,4 +1,6 @@
 import { AnalyticsHeader } from "./AnalyticsHeader";
+import { AnalyticsMetrics } from "./AnalyticsMetrics";
+
 import { MetricsCards } from "./MetricsCards";
 
 export function Analytics() {
@@ -8,7 +10,7 @@ export function Analytics() {
 
       <MetricsCards />
 
-      <div className="h-105 rounded-3xl border border-slate-200 bg-white" />
+      <AnalyticsMetrics />
       <div className="grid gap-6 lg:grid-cols-2">
         <div className="h-95 rounded-3xl border border-slate-200 bg-white" />
         <div className="h-95 rounded-3xl border border-slate-200 bg-white" />
