@@ -12,7 +12,7 @@ export function ConversationCard({
   unread,
 }: Props) {
   return (
-    <button className="flex w-full items-center gap-4 rounded-2xl border border-slate-200 p-4 text-left transition hover:bg-slate-50">
+    <button className="flex w-full items-center gap-4 rounded-2xl border border-slate-200 p-4 text-left transition hover:bg-slate-50 dark:border-slate-900 hover:dark:bg-slate-800">
       <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-100 font-semibold text-blue-600">
         {name.charAt(0)}
       </div>

@@ -12,15 +12,12 @@ export function Analytics() {
 
       <AnalyticsMetrics />
       <div className="grid gap-6 lg:grid-cols-2">
-        <div className="h-95 rounded-3xl border border-slate-200 bg-white" />
-        <div className="h-95 rounded-3xl border border-slate-200 bg-white" />
+        <div className="h-95 rounded-3xl border border-slate-200 bg-white dark:bg-slate-900 dark:border-slate-800" />
+        <div className="h-95 rounded-3xl border border-slate-200 bg-white dark:bg-slate-900 dark:border-slate-800" />
       </div>
 
-      <div className="grid gap-6 lg:grid-cols-3">
-        <div className="h-105 rounded-3xl border border-slate-200 bg-white lg:col-span-2" />
-        <div className="h-105 rounded-3xl border border-slate-200 bg-white" />
-      </div>
-      <div className="h-95 rounded-3xl border border-slate-200 bg-white" />
+
+      <div className="h-95 rounded-3xl border border-slate-200 bg-white dark:bg-slate-900 dark:border-slate-800" />
     </div>
   );
 }

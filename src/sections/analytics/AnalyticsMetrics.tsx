@@ -3,7 +3,7 @@ import { AnalyticsMetricItem } from "./AnalyticsMetricItem";
 
 export function AnalyticsMetrics() {
   return (
-    <section className="rounded-3xl border border-slate-200 bg-white p-6">
+    <section className="rounded-3xl border border-slate-200 bg-white dark:bg-slate-900 dark:border-slate-800 p-6">
       <div className="mb-8">
         <h2 className="text-xl font-semibold">Detailed Analytics</h2>
 

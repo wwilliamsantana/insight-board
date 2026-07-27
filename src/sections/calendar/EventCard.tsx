@@ -10,7 +10,7 @@ export function EventCard({
   date,
 }: Props) {
   return (
-    <article className="rounded-2xl border border-slate-200 p-5 transition hover:bg-slate-50">
+    <article className="rounded-2xl border border-slate-200 p-5 transition hover:bg-slate-50 hover:dark:bg-slate-800 dark:border-slate-800">
       <p className="text-sm text-slate-500">
         {date}
       </p>

@@ -3,7 +3,7 @@ import { Search, Filter } from "lucide-react";
 
 export function OrdersFilters() {
   return (
-    <section className="flex flex-col gap-4 rounded-3xl border border-slate-200 bg-white p-6 lg:flex-row lg:items-center lg:justify-between">
+    <section className="flex flex-col gap-4 rounded-3xl border border-slate-200 bg-white p-6 lg:flex-row lg:items-center lg:justify-between dark:border-slate-800 dark:bg-slate-900">
       <div className="relative w-full max-w-md">
         <Search
           size={18}
@@ -13,7 +13,7 @@ export function OrdersFilters() {
         <input
           type="text"
           placeholder="Search orders..."
-          className="w-full rounded-xl border border-slate-200 py-3 pl-11 pr-4 outline-none transition focus:border-blue-500"
+          className="w-full rounded-xl border border-slate-200 py-3 pl-11 pr-4 outline-none transition focus:border-blue-500 dark:border-slate-800 "
         />
       </div>
 

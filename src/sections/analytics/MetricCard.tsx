@@ -26,13 +26,13 @@ export function MetricCard({ title, value, growth, icon: Icon, color }: Props) {
       transition={{
         duration: 0.4,
       }}
-      className="rounded-3xl border border-slate-200 bg-white p-6 transition-all hover:-translate-y-1 hover:shadow-lg"
+      className="rounded-3xl border border-slate-200 bg-white p-6 transition-all hover:-translate-y-1 hover:shadow-lg dark:border-slate-800 dark:bg-slate-900"
     >
       <div className="flex items-center justify-between">
         <div>
           <p className="text-sm font-medium text-slate-500">{title}</p>
 
-          <h2 className="mt-3 text-4xl font-bold tracking-tight text-slate-900">
+          <h2 className="mt-3 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-50">
             {value}
           </h2>
         </div>

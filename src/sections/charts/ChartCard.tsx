@@ -6,7 +6,7 @@ interface Props {
 
 export function ChartCard({ title, description, children }: Props) {
   return (
-    <article className="rounded-3xl border border-slate-200 bg-white p-6">
+    <article className="rounded-3xl border border-slate-200  bg-white p-6 dark:border-slate-800 dark:bg-slate-900">
       <div className="mb-8">
         <h2 className="text-xl font-semibold">{title}</h2>
 

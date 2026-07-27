@@ -2,7 +2,7 @@ import { MoreHorizontal } from "lucide-react";
 
 export function OrdersTable() {
   return (
-    <section className="rounded-3xl border border-slate-200 bg-white p-6">
+    <section className="rounded-3xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900">
       <div className="mb-6">
         <h2 className="text-xl font-semibold">Recent Orders</h2>
         <p className="mt-1 text-sm text-slate-500">Latest customer purchase.</p>
@@ -11,7 +11,7 @@ export function OrdersTable() {
       <div className="overflow-x-auto">
         <table className="w-full">
           <thead>
-            <tr className="border-b border-slate-200">
+            <tr className="border-b border-slate-200 dark:border-slate-800">
               <th
                 scope="col"
                 className="pb-4 text-left text-sm font-medium text-slate-500"
@@ -57,20 +57,20 @@ export function OrdersTable() {
           </thead>
 
           <tbody>
-            <tr className="transition hover:bg-slate-50">
-              <td className="py-5 font-medium text-slate-900">#10241</td>
+            <tr className="transition hover:bg-slate-50 hover:dark:bg-slate-800">
+              <td className="py-5 font-medium text-slate-900 dark:text-slate-50 ">#10241</td>
 
               <td className="py-5">
                 <div>
-                  <p className="font-medium text-slate-900">Emma Johnson</p>
+                  <p className="font-medium text-slate-900 dark:text-slate-50">Emma Johnson</p>
 
-                  <p className="text-sm text-slate-500">Jul 23, 2026</p>
+                  <p className="text-sm text-slate-500 dark:text-slate-50">Jul 23, 2026</p>
                 </div>
               </td>
 
-              <td className="py-5 text-slate-600">Premium Plan</td>
+              <td className="py-5 text-slate-600 dark:text-slate-50">Premium Plan</td>
 
-              <td className="py-5 font-semibold text-slate-900">$249.00</td>
+              <td className="py-5 font-semibold text-slate-900 dark:text-slate-50">$249.00</td>
 
               <td className="py-5">
                 <span className="inline-flex rounded-full bg-green-100 px-3 py-1 text-xs font-semibold text-green-700">

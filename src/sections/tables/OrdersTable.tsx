@@ -6,7 +6,7 @@ export function OrdersTable() {
     <div className="overflow-x-auto">
       <table className="w-full border-collapse">
         <thead>
-          <tr className="border-b border-slate-200 text-left text-sm text-slate-500">
+          <tr className="border-b border-slate-200 dark:border-slate-800 text-left text-sm text-slate-500">
             <th className="pb-4">Order</th>
             <th className="pb-4">Customer</th>
             <th className="pb-4">Product</th>
@@ -20,7 +20,7 @@ export function OrdersTable() {
           {recentOrders.map((order) => (
             <tr
               key={order.id}
-              className="border-b border-slate-100 transition hover:bg-slate-50"
+              className="border-b border-slate-100 transition hover:bg-slate-50 dark:border-slate-800 hover:dark:bg-slate-800"
             >
               <td className="py-5 font-medium">{order.id}</td>
               <td>{order.customer}</td>

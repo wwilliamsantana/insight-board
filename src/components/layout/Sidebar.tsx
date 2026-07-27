@@ -64,7 +64,7 @@ export function Sidebar() {
   const pathname = usePathname();
 
   return (
-    <aside className="flex w-72 flex-col border-r border-slate-200 bg-white dark:bg-slate-900 text-slate-900   dark:text-white">
+    <aside className="flex w-72 flex-col border-r border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-900   dark:text-white">
       <SidebarLogo />
 
       <nav className="flex-1 space-y-2 px-4">

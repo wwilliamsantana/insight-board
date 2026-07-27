@@ -3,11 +3,11 @@ import { Download } from "lucide-react";
 
 export function DashboardHeader() {
   return (
-    <div className="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
+    <div className="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between ">
       <div>
         <p className="text-sm font-medium text-slate-500">Welcome back 👋</p>
 
-        <h1 className="mt-2 text-4xl font-bold tracking-tight text-slate-900">
+        <h1 className="mt-2 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-50">
           Business Overview
         </h1>
 

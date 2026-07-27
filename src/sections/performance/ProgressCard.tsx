@@ -15,7 +15,7 @@ export function ProgressCard({ title, value, color }: Props) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.4 }}
-      className="rounded-2xl border border-slate-200 bg-white p-5"
+      className="rounded-2xl border border-slate-200 bg-white p-5 dark:border-slate-800 dark:bg-slate-900"
     >
       <div className="flex items-center justify-between">
         <h3 className="font-medium">{title}</h3>
@@ -23,7 +23,7 @@ export function ProgressCard({ title, value, color }: Props) {
         <span className="font-bold">{value}%</span>
       </div>
 
-      <div className="mt-5 h-3 overflow-hidden rounded-full bg-slate-200">
+      <div className="mt-5 h-3 overflow-hidden rounded-full bg-slate-200 dark:bg-slate-800">
         <motion.div
           initial={{ width: 0 }}
           whileInView={{

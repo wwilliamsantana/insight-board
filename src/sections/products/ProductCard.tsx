@@ -14,7 +14,7 @@ export function ProductCard({
   stock,
 }: Props) {
   return (
-    <article className="rounded-3xl border border-slate-200 bg-white p-6 transition hover:-translate-y-1 hover:shadow-lg">
+    <article className="rounded-3xl border border-slate-200 bg-white p-6 transition hover:-translate-y-1 hover:shadow-lg dark:border-slate-800 dark:bg-slate-900">
       <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-slate-100">
         <Package2 className="text-slate-700" size={28} />
       </div>

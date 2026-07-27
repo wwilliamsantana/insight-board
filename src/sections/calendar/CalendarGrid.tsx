@@ -1,6 +1,6 @@
 export function CalendarGrid() {
   return (
-    <section className="rounded-3xl border border-slate-200 bg-white p-6">
+    <section className="rounded-3xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900">
       <div className="mb-6 flex items-center justify-between">
         <h2 className="text-xl font-semibold">
           July 2026
@@ -24,7 +24,7 @@ export function CalendarGrid() {
         {Array.from({ length: 35 }).map((_, index) => (
           <div
             key={index}
-            className="flex aspect-square items-center justify-center rounded-xl border border-slate-200 text-sm transition hover:bg-slate-100"
+            className="flex aspect-square items-center justify-center rounded-xl border border-slate-200 text-sm transition hover:bg-slate-100 hover:dark:bg-slate-800 dark:border-slate-800"
           >
             {index + 1 <= 31 ? index + 1 : ""}
           </div>

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function SidebarProfile() {
   return (
-    <div className="border-t border-slate-200 p-5">
+    <div className="border-t border-slate-200  dark:border-slate-800 p-5">
       <div className="flex items-center gap-3">
         <Image
           src="https://github.com/wwilliamsantana.png"

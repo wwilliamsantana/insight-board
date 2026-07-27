@@ -2,7 +2,7 @@
 // Examples
 export function MessagePreview() {
   return (
-    <section className="flex h-full min-h-105 flex-col rounded-3xl border border-slate-200 bg-white p-8">
+    <section className="flex h-full min-h-105 flex-col rounded-3xl border border-slate-200 bg-white p-8 dark:border-slate-800 dark:bg-slate-900">
       <h2 className="text-xl font-semibold">
         Emma Johnson
       </h2>
@@ -12,7 +12,7 @@ export function MessagePreview() {
       </p>
 
       <div className="mt-8 flex-1 space-y-4">
-        <div className="max-w-md rounded-2xl bg-slate-100 p-4">
+        <div className="max-w-md rounded-2xl bg-slate-100 p-4 dark:bg-slate-900">
           Hi! Could you update my subscription to the Premium plan?
         </div>
 

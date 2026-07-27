@@ -3,7 +3,7 @@ import { OrdersTable } from "./OrdersTable";
 
 export function RecentOrders() {
   return (
-    <section className="rounded-3xl border border-slate-200 bg-white p-6">
+    <section className="rounded-3xl border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900 p-6">
       <div className="mb-8 flex items-center justify-between">
         <div>
           <h2 className="text-xl font-semibold">Recent Orders</h2>

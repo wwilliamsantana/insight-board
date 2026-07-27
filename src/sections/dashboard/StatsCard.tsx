@@ -26,7 +26,7 @@ export function StatsCard({ title, value, growth, icon: Icon, color }: Props) {
       transition={{
         duration: 0.4,
       }}
-      className="rounded-3xl border border-slate-200 bg-white p-6"
+      className="rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900  p-6"
     >
       <div className="flex items-center justify-between">
         <div>
