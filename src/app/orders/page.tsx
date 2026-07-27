@@ -1,10 +1,10 @@
 import { DashboardLayout } from "@/components/layout/DashboardLayout";
-import { Orders as OrdersPage } from "@/sections/orders/Orders";
+import { Orders } from "@/sections/orders/Orders";
 
-export default function Orders() {
+export default function OrdersPage() {
   return (
     <DashboardLayout>
-      <OrdersPage />
+      <Orders />
     </DashboardLayout>
   );
 }
