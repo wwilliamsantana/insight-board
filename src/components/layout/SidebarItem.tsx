@@ -17,9 +17,8 @@ export function SidebarItem({
   return (
     <Link
       href={redirect}
-      className={`flex w-full items-center gap-3 rounded-xl px-4 py-3 text-sm font-medium transition ${
-        active ? "bg-blue-600 text-white" : "text-slate-600 hover:bg-slate-100"
-      }`}
+      className={`flex w-full items-center gap-3 rounded-xl px-4 py-3 text-sm font-medium transition ${active ? "bg-blue-600 text-white" : "text-slate-600 hover:bg-slate-100"
+        }`}
     >
       <Icon size={20} />
 
