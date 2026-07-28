@@ -1,36 +1,148 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# InsightBoard
 
-## Getting Started
+A modern and responsive Business Analytics Dashboard built with **Next.js 15**, **React 19**, **TypeScript**, and **Tailwind CSS 4**.
 
-First, run the development server:
+Designed to simulate a real-world SaaS admin panel, InsightBoard focuses on clean UI, reusable components, dark mode support, smooth animations, and scalable architecture.
+
+---
+
+##  Live Demo
+
+🔗 https://insight-board-theta.vercel.app/
+
+---
+
+##  Features
+
+-  Interactive Dashboard
+-  Analytics Overview
+-  Customers Management
+-  Orders Page
+-  Products Page
+-  Messages Center
+-  Calendar View
+-  Settings Page
+-  Dark Mode
+-  Smooth Animations with Framer Motion
+-  Responsive Layout
+-  SEO Optimized
+-  Built with Next.js App Router
+
+---
+
+##  Screenshots
+
+### Dashboard (Light Mode)
+
+<img width="700" src="https://github.com/user-attachments/assets/a7264726-bbd4-40c9-a0a6-0e8b59c138f0" />
+
+---
+
+### Dashboard (Dark Mode)
+
+<img width="700" src="https://github.com/user-attachments/assets/1f4f5fd2-3045-4343-9548-6e578edb2630" />
+
+---
+
+### Analytics
+
+<img width="700" src="https://github.com/user-attachments/assets/70ac7066-c102-4bc7-9d5e-bbb0af56ee3b" />
+
+---
+
+### Orders
+
+<img width="700" src="https://github.com/user-attachments/assets/3bd7bea7-d833-468f-8ca8-f43ca9f5c872" />
+
+---
+
+## Tech Stack
+
+*  Next.js 15 
+*  React 19 
+*  TypeScript 
+*  Tailwind CSS 4
+*  Framer Motion 
+*  Lucide React 
+*  next-themes (Dark Mode)
+*  ESLint
+
+---
+
+##  Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/wwilliamsantana/insight-board.git
+```
+
+Navigate to the project
+
+```bash
+cd insight-board
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+##  Dark Mode
 
-To learn more about Next.js, take a look at the following resources:
+The application supports Light and Dark themes using **next-themes**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Features include:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Theme persistence
+- Animated toggle button
+- System independent theme
+- Smooth transitions
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+##  Project Goals
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project was developed to practice modern Front-end development concepts, including:
+
+- Component Architecture
+- Dashboard UI Design
+- Reusable Components
+- App Router
+- Metadata API
+- SEO
+- Dark Mode
+- Responsive Design
+- TypeScript
+- Framer Motion
+- Scalable Folder Structure
+
+---
+
+##  Author
+
+**William Santana**
+
+- GitHub: https://github.com/wwilliamsantana
+- LinkedIn: https://linkedin.com/in/wwilliamsantana
+
+---
+
+## License
+
+This project is licensed under the MIT License.
