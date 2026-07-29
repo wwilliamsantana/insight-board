@@ -1,3 +1,9 @@
+![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-06B6D4?logo=tailwindcss)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 # InsightBoard
 
 A modern and responsive Business Analytics Dashboard built with **Next.js 15**, **React 19**, **TypeScript**, and **Tailwind CSS 4**.
@@ -14,19 +20,18 @@ Designed to simulate a real-world SaaS admin panel, InsightBoard focuses on clea
 
 ##  Features
 
--  Interactive Dashboard
--  Analytics Overview
--  Customers Management
--  Orders Page
--  Products Page
--  Messages Center
--  Calendar View
--  Settings Page
--  Dark Mode
--  Smooth Animations with Framer Motion
--  Responsive Layout
--  SEO Optimized
--  Built with Next.js App Router
+- ✅ Interactive Dashboard
+- ✅ Analytics Overview
+- ✅ Customers Management
+- ✅ Orders Page
+- ✅ Products Page
+- ✅ Messages Center
+- ✅ Calendar View
+- ✅ Settings Page
+- ✅ Dark Mode
+- ✅ Responsive Layout
+- ✅ SEO Optimized
+- ✅ Framer Motion Animations
 
 ---
 
@@ -69,7 +74,7 @@ Designed to simulate a real-world SaaS admin panel, InsightBoard focuses on clea
 
 ---
 
-##  Installation
+##  Getting Started
 
 Clone the repository
 
@@ -131,6 +136,21 @@ This project was developed to practice modern Front-end development concepts, in
 - TypeScript
 - Framer Motion
 - Scalable Folder Structure
+
+---
+
+## What I Learned
+
+During the development of this project I improved my knowledge in:
+
+- Next.js App Router
+- TypeScript
+- Tailwind CSS 4
+- Dark Mode with next-themes
+- SEO Metadata
+- Framer Motion
+- Reusable Components
+- Responsive Layouts
 
 ---
 
