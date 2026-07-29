@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
     },
 
-    // sitemap: "https://insightboard.vercel.app/sitemap.xml",
+    sitemap: "https://insight-board-theta.vercel.app/sitemap.xml",
   };
 }

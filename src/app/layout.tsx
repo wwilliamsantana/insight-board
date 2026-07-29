@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  // metadataBase: new URL("https://insightboard.vercel.app"),
+  metadataBase: new URL("https://insight-board-theta.vercel.app/"),
   title: {
     default: "InsightBoard | Business Analytics Dashboard",
     template: "%s | InsightBoard",
@@ -42,25 +42,25 @@ export const metadata: Metadata = {
   openGraph: {
     title: "InsightBoard",
     description: "Modern Business Analytics Dashboard.",
-    // url: "https://insightboard.vercel.app",
+    url: "https://insight-board-theta.vercel.app/",
     siteName: "InsightBoard",
     locale: "en_US",
     type: "website",
-    // images: [
-    //   {
-    //     url: "/og-image.jpg",
-    //     width: 1200,
-    //     height: 630,
-    //     alt: "InsightBoard Dashboard",
-    //   },
-    // ],
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1301,
+        height: 630,
+        alt: "InsightBoard Dashboard",
+      },
+    ],
   },
   robots: {
     index: true,
     follow: true,
   },
   icons: {
-    // icon: "/favicon.ico",
+    icon: "/favicon.ico",
   },
 };
 
