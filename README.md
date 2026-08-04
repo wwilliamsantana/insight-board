@@ -1,39 +1,27 @@
-![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)
-![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-06B6D4?logo=tailwindcss)
-![License](https://img.shields.io/badge/License-MIT-green)
-
 # InsightBoard
 
 A modern and responsive Business Analytics Dashboard built with **Next.js 15**, **React 19**, **TypeScript**, and **Tailwind CSS 4**.
 
 Designed to simulate a real-world SaaS admin panel, InsightBoard focuses on clean UI, reusable components, dark mode support, smooth animations, and scalable architecture.
 
----
-
 ##  Live Demo
 
-🔗 https://insight-board-theta.vercel.app/
-
----
+### 🔗 https://insight-board-theta.vercel.app/
 
 ##  Features
 
-- ✅ Interactive Dashboard
-- ✅ Analytics Overview
-- ✅ Customers Management
-- ✅ Orders Page
-- ✅ Products Page
-- ✅ Messages Center
-- ✅ Calendar View
-- ✅ Settings Page
-- ✅ Dark Mode
-- ✅ Responsive Layout
-- ✅ SEO Optimized
-- ✅ Framer Motion Animations
-
----
+- Interactive Dashboard
+- Analytics Overview
+- Customers Management
+- Orders Page
+- Products Page
+-  Messages Center
+- Calendar View
+- Settings Page
+- Dark Mode
+- Responsive Layout
+- SEO Optimized
+- Framer Motion Animations
 
 ##  Screenshots
 
@@ -41,25 +29,23 @@ Designed to simulate a real-world SaaS admin panel, InsightBoard focuses on clea
 
 <img width="700" src="https://github.com/user-attachments/assets/a7264726-bbd4-40c9-a0a6-0e8b59c138f0" />
 
----
 
 ### Dashboard (Dark Mode)
 
 <img width="700" src="https://github.com/user-attachments/assets/1f4f5fd2-3045-4343-9548-6e578edb2630" />
 
----
+
 
 ### Analytics
 
 <img width="700" src="https://github.com/user-attachments/assets/70ac7066-c102-4bc7-9d5e-bbb0af56ee3b" />
 
----
+
 
 ### Orders
 
 <img width="700" src="https://github.com/user-attachments/assets/3bd7bea7-d833-468f-8ca8-f43ca9f5c872" />
 
----
 
 ## Tech Stack
 
@@ -72,7 +58,7 @@ Designed to simulate a real-world SaaS admin panel, InsightBoard focuses on clea
 *  next-themes (Dark Mode)
 *  ESLint
 
----
+
 
 ##  Getting Started
 
@@ -106,7 +92,7 @@ Open
 http://localhost:3000
 ```
 
----
+
 
 ##  Dark Mode
 
@@ -119,7 +105,7 @@ Features include:
 - System independent theme
 - Smooth transitions
 
----
+
 
 ##  Project Goals
 
@@ -137,22 +123,6 @@ This project was developed to practice modern Front-end development concepts, in
 - Framer Motion
 - Scalable Folder Structure
 
----
-
-## What I Learned
-
-During the development of this project I improved my knowledge in:
-
-- Next.js App Router
-- TypeScript
-- Tailwind CSS 4
-- Dark Mode with next-themes
-- SEO Metadata
-- Framer Motion
-- Reusable Components
-- Responsive Layouts
-
----
 
 ##  Author
 
